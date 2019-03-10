@@ -9,6 +9,9 @@
 <script>
 // @ is an alias to /src
 import HelloWorld from "@/components/HelloWorld.vue";
+import xxx from　"../api/api.js"
+console.log('xxx', xxx)
+let getdata = xxx.getdata;
 
 export default {
   name: "Home",
@@ -16,7 +19,7 @@ export default {
     HelloWorld
   },
   created() {
-    console.log("this", this);
+    getdata();
   },
   methods: {
     skip(path) {
