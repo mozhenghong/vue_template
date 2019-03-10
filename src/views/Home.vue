@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    this is home page
+    <h1> this is home page</h1>
     <button @click="skip('about')">go to next</button>
     <button @click="skip('more')">go to more</button>
   </div>
